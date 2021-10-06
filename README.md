@@ -59,6 +59,6 @@ MIT
 Оцените мод в Стим.;)
 Rate the mod on Steam.;)
 ___
-***Stationeers.Addons** is not affiliated with RocketWerkz. All trademarks and registered trademarks are the property of their respective owners.*<br>
-***Stationeers.Addons** (c) 2018-2021 mehanic321 & Contributors*
+***NormalQuarry** is not affiliated with RocketWerkz. All trademarks and registered trademarks are the property of their respective owners.*<br>
+***NormalQuarry** (c) 2018-2021 mehanic321 & Contributors*
 
