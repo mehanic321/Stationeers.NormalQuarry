@@ -3,19 +3,19 @@
 WARNING: This mod will not work, unless you install Stationeers.Addon mod loader.
 Read how to install it here: https://github.com/Erdroy/Stationeers.Addons
 
----
+==============================================================
 
 A normal career for Stationeers.
 
 Modification for the quarry.
 Now the quarry is mined even after having dug up all the soil.
 
-==============================================================
+---
 
 ВНИМАНИЕ: этот мод не будет работать, если вы не установите загрузчик мод Stationeers.Addon.
 Прочтите, как его установить здесь: https://github.com/Erdroy/Stationeers.Addons
 
----
+==============================================================
 
 Нормальный карьер для Stationeers.
 
