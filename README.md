@@ -50,10 +50,14 @@ ItemCopperOre
 
 ## Ссылка
 * [Official Github](https://github.com/mehanic321/Stationeers.NormalQuarry)
+* [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2621212864)
 
 ## Лицензия
 MIT
 
+## Пожелания | Wishes
+Оцените мод в Стим.;)
+Rate the mod on Steam.;)
 ___
 ***Stationeers.Addons** is not affiliated with RocketWerkz. All trademarks and registered trademarks are the property of their respective owners.*<br>
 ***Stationeers.Addons** (c) 2018-2021 mehanic321 & Contributors*
