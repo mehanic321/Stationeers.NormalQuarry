@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>StationeersAddonsNormalQuarry</Name>
+  <Author>mehanic321</Author>
+  <Version>0.1.0001.00001</Version>
+  <Description>WARNING: This mod will not work, unless you install Stationeers.Addon mod loader.
+Read how to install it here: https://github.com/Erdroy/Stationeers.Addons
+---
+
+Fixing developer careers quarry.</Description>
+  <Tags />
+</ModMetadata>

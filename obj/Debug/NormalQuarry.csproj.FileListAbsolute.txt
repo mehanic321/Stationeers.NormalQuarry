@@ -1,0 +1,6 @@
+C:\Users\mehanic\Desktop\Addons\new\Stationeers.Addons\Source\MyMods\NormalQuarry\bin\Debug\NormalQuarry-Debug.dll
+C:\Users\mehanic\Desktop\Addons\new\Stationeers.Addons\Source\MyMods\NormalQuarry\bin\Debug\NormalQuarry-Debug.pdb
+C:\Users\mehanic\Desktop\Addons\new\Stationeers.Addons\Source\MyMods\NormalQuarry\obj\Debug\NormalQuarry.csproj.AssemblyReference.cache
+C:\Users\mehanic\Desktop\Addons\new\Stationeers.Addons\Source\MyMods\NormalQuarry\obj\Debug\NormalQuarry.csproj.CoreCompileInputs.cache
+C:\Users\mehanic\Desktop\Addons\new\Stationeers.Addons\Source\MyMods\NormalQuarry\obj\Debug\NormalQuarry-Debug.dll
+C:\Users\mehanic\Desktop\Addons\new\Stationeers.Addons\Source\MyMods\NormalQuarry\obj\Debug\NormalQuarry-Debug.pdb
