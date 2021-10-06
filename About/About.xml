@@ -4,13 +4,10 @@
   <Author>mehanic321</Author>
   <Version>0.1.0001.00001</Version>
   <Description>
-  
-  # Stationeers.NormalQuarry
+Stationeers.NormalQuarry
 
 WARNING: This mod will not work, unless you install Stationeers.Addon mod loader.
 Read how to install it here: https://github.com/Erdroy/Stationeers.Addons
-
-=============================
 
 A normal career for Stationeers.
 
@@ -30,12 +27,8 @@ The quarry will stop producing resources after the drill head returns to its ori
 Therefore, it is necessary to restart the quarry.
 In order not to do it manually, you need to use automation or IC.
 
----
-
 ВНИМАНИЕ: этот мод не будет работать, если вы не установите загрузчик мод Stationeers.Addon.
 Прочтите, как его установить здесь: https://github.com/Erdroy/Stationeers.Addons
-
-=============================
 
 Нормальный карьер для Stationeers.
 
@@ -55,20 +48,21 @@ ItemCopperOre
 Поэтому нужно перезапустить карьер. 
 Чтобы не делать это вручную - нужно использовать автоматику или IC.
 
-## Ссылка
-* [Official Github](https://github.com/mehanic321/Stationeers.NormalQuarry)
-* [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2621212864)
+Ссылка
+Official Github https://github.com/mehanic321/Stationeers.NormalQuarry
+Steam https://steamcommunity.com/sharedfiles/filedetails/?id=2621212864
 
-## Лицензия
+Лицензия
 MIT
 
-## Пожелания | Wishes
+Пожелания Wishes
 Оцените мод в Стим.;)
 Rate the mod on Steam.;)
-___
-***Stationeers.Addons** is not affiliated with RocketWerkz. All trademarks and registered trademarks are the property of their respective owners.*<br>
-***Stationeers.Addons** (c) 2018-2021 mehanic321 & Contributors*
+
+Stationeers.Addons is not affiliated with RocketWerkz. All trademarks and registered trademarks are the property of their respective owners.
+Stationeers.Addons (c) 2018-2021 mehanic321 and Contributors
   
   </Description>
+  <WorkshopHandle>2621212864</WorkshopHandle>
   <Tags />
 </ModMetadata>
