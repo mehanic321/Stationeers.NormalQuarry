@@ -48,7 +48,7 @@ namespace nqPlugin.Script
                 string textStr = (timerPercent == 0) ? nqLang.WAIT + "\n" + Mathf.RoundToInt(nqPreset.REPEAT_RATE / 60) + nqLang.ABBREVIATION_MIN : timerPercent.ToString() + nqLang.PROCENT;
                 int colorPercent = Mathf.RoundToInt(255 * timerPercent / 100);
                 nqTMproText.setText(ref textTimer, textStr);
-                nqTMproText.setColor(ref textTimer, new Color(255 - colorPercent, colorPercent, 0, 1));
+                nqTMproText.setColor(ref textTimer, new Color32((byte)(255 - colorPercent), (byte)colorPercent, 0, 255));
                 bool flag = instance.Error == 1 || !instance.OnOff || instance.Activate != 1 || !instance.Powered;
                 if (!flag)
                 {
