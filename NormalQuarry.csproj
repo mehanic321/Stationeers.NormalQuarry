@@ -7,8 +7,8 @@
     <ProjectGuid>{2FB2042B-9DD0-4756-B16D-246E731A27F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NormalQuarry</RootNamespace>
-    <AssemblyName>NormalQuarry-Debug</AssemblyName>
+    <RootNamespace>nqPlugin</RootNamespace>
+    <AssemblyName>nqPlugin-Debug</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -90,7 +90,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scripts\NormalQuarry.cs" />
+    <Compile Include="Scripts\nqHarmony.cs" />
+    <Compile Include="Scripts\nqLang.cs" />
+    <Compile Include="Scripts\nqManager.cs" />
+    <Compile Include="Scripts\nqPlugin.cs" />
+    <Compile Include="Scripts\nqPreset.cs" />
+    <Compile Include="Scripts\nqQuarry.cs" />
+    <Compile Include="Scripts\nqQuarryClient.cs" />
+    <Compile Include="Scripts\nqQuarryServer.cs" />
+    <Compile Include="Scripts\nqTMproText.cs" />
+    <Compile Include="Scripts\nqTMpro.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="About\About.xml" />
