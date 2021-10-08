@@ -66,11 +66,11 @@ namespace NormalQuarry.Scripts
     public class NewQuarryServer : MonoBehaviour
     {
 
-        public float repeatRate = 10f;
+        public float repeatRate = 120f;
         public bool activatedRate = false;
-        public int randomOre = 0;        
-        public float startTimer;        
-        public bool startPercent = false;        
+        public int randomOre = 0;
+        public float startTimer;
+        public bool startPercent = false;
         public static List<string> ores = new List<string>();
 
         void Start()
