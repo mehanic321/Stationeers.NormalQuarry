@@ -34,7 +34,7 @@ namespace nqPlugin.Script
                             if (nqQuarryServerComponent.isSpawningOre)
                             {
                                 string randOre = nqQuarryServer.spawningOres[nqQuarryServerComponent.randomOre];
-                                nqManager.createItemOreByQuarryRandomQuantity(ref __instance, randOre, Random.Range(0, 75));
+                                nqManager.createItemOreByQuarryRandomQuantity(ref __instance, randOre, Random.Range(nqPreset.MIN_COUNT_SPAWN_ORE, nqPreset.MAX_COUNT_SPAWN_ORE));
                                 nqQuarryServerComponent.offSpawnOre();
                             }
                         }
