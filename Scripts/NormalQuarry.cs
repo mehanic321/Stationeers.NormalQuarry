@@ -124,7 +124,8 @@ namespace NormalQuarry.Scripts
         {
             if (textTimer)
             {
-                setTextStr(ref textTimer, timerPercent + "%");
+                string textstr = (timerPercent == 0) ? "Wait\n2min" : timerPercent.ToString()+"%";
+                setTextStr(ref textTimer, textstr);
                 Quarry quarry = GetComponent<Quarry>();
                 bool flag = quarry.Error == 1 || !quarry.OnOff || quarry.Activate != 1 || !quarry.Powered;
                 if (!flag)
@@ -158,7 +159,7 @@ namespace NormalQuarry.Scripts
             uiEmpty.transform.SetParent(parent.transform);
             TextMeshPro text = uiEmpty.AddComponent<TextMeshPro>();
             text.color = color;
-            text.text = textStr;
+            text.SetText(textStr);
             text.fontSize = fontSize;
             text.alignment = alignment;
             RectTransform rectTransform = uiEmpty.GetComponent<RectTransform>();
