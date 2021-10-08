@@ -59,7 +59,6 @@ namespace NormalQuarry.Scripts
             {
                 NewQuarryAll component = __instance.gameObject.AddComponent<NewQuarryAll>();
                 component.startComponent();
-                Debug.Log("TEST " + GameManager.IsServer);
             }
         }
     }
@@ -171,9 +170,9 @@ namespace NormalQuarry.Scripts
             text.GetComponent<TextMeshPro>().SetText(textStr);
         }
 
-        public void setVisible(ref GameObject text, bool active)
+        public void setVisible(ref GameObject obj, bool active)
         {
-            text.GetComponent<MeshRenderer>().enabled = active;
+            obj.GetComponent<MeshRenderer>().enabled = active;
         }
     }
     
