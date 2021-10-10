@@ -79,6 +79,10 @@
       <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\Libraries\Stationeers\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.UNETModule">
       <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.UNETModule.dll</HintPath>
       <Private>False</Private>
@@ -98,6 +102,7 @@
     <Compile Include="Scripts\nqQuarry.cs" />
     <Compile Include="Scripts\nqQuarryClient.cs" />
     <Compile Include="Scripts\nqQuarryServer.cs" />
+    <Compile Include="Scripts\nqTMproButton.cs" />
     <Compile Include="Scripts\nqTMproText.cs" />
     <Compile Include="Scripts\nqTMpro.cs" />
   </ItemGroup>

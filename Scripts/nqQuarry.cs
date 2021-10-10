@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Networking;
 using Assets.Scripts;
 using Assets.Scripts.Objects.Electrical;
@@ -12,7 +13,9 @@ namespace nqPlugin.Script
         [SyncVar]
         public int timerPercent = 0;
 
+        public GameObject parentPanel;
         public GameObject textTimer;
+        public GameObject button;
 
         private Quarry instance;
 
@@ -35,9 +38,22 @@ namespace nqPlugin.Script
         {
             if (!textTimer)
             {
-                nqTMproText.addText(ref textTimer, transform.position - transform.right * nqPreset.X_OFFSET_FOR_TEXT + new Vector3(0, nqPreset.Y_OFFSET_FOR_TEXT, 0), transform.rotation, gameObject, nqLang.POINT + nqLang.POINT + nqLang.POINT, 5, Color.red, new Vector2(100, 100), false);
+                Vector3 posInfoPanel = transform.position - transform.right * nqPreset.X_OFFSET_FOR_TEXT + new Vector3(0, nqPreset.Y_OFFSET_FOR_TEXT, 0);
+                parentPanel = new GameObject();
+                parentPanel.transform.position = posInfoPanel;
+                parentPanel.transform.rotation = transform.rotation;
+                parentPanel.transform.SetParent(gameObject.transform);
+                parentPanel.AddComponent<MeshRenderer>();
+                parentPanel.AddComponent<Canvas>();
+
+                nqTMproText.addText(ref textTimer, Vector3.zero, Quaternion.identity, parentPanel, nqLang.POINT + nqLang.POINT + nqLang.POINT, 5, Color.red, new Vector2(100, 100), false);
                 textTimer.transform.localEulerAngles = new Vector3(0, textTimer.transform.localEulerAngles.y - 90, 0);
                 nqTMproText.setVisible(ref textTimer, false);
+
+                GameObject uiEmpty = new GameObject();
+                uiEmpty.transform.SetParent(parentPanel.transform);
+                uiEmpty.AddComponent<Button>();
+                //nqTMproButton.addButton(ref button, posInfoPanel, transform.rotation, textTimer.transform.parent.gameObject);
             }
             InvokeRepeating("oneSecond", 1, 1);
         }
