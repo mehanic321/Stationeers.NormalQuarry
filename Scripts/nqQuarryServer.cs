@@ -19,6 +19,11 @@ namespace nqPlugin.Script
 
         public static List<string> spawningOres = new List<string>();
 
+        public static void OnRegisteredPostfix(Quarry __instance)
+        {
+            __instance.UsedPower = nqPreset.USED_POWER;
+        }
+
         public static void OnServerExportTickPostfix(Quarry __instance)
         {
             bool flag = __instance.Error == 1 || !__instance.OnOff || __instance.Activate != 1 || !__instance.Powered;

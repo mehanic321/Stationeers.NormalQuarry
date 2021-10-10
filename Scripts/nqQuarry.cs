@@ -9,21 +9,22 @@ namespace nqPlugin.Script
 {
     public class nqQuarry : NetworkBehaviour
     {
-        public static void SetUpQuarryPostfix(Quarry __instance)
-        {
-            if (GameManager.IsServer)
-                __instance.gameObject.AddComponent<nqQuarryServer>();
-
-            if (!__instance.gameObject.GetComponent<nqQuarry>())
-                __instance.gameObject.AddComponent<nqQuarry>();
-        }
-
         [SyncVar]
         public int timerPercent = 0;
 
         public GameObject textTimer;
 
         private Quarry instance;
+
+        public static void SetUpQuarryPostfix(Quarry __instance)
+        {
+            __instance.UsedPower = 10000f;
+            if (GameManager.IsServer)
+                __instance.gameObject.AddComponent<nqQuarryServer>();
+
+            if (!__instance.gameObject.GetComponent<nqQuarry>())
+                __instance.gameObject.AddComponent<nqQuarry>();
+        }
 
         void Awake()
         {

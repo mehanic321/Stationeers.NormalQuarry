@@ -1,6 +1,6 @@
 using HarmonyLib;
 using Assets.Scripts.Objects.Electrical;
-
+using JetBrains.Annotations;
 namespace nqPlugin.Script
 {
     [HarmonyPatch(typeof(Quarry))]
@@ -19,6 +19,16 @@ namespace nqPlugin.Script
         static void Postfix(Quarry __instance)
         {
             nqQuarry.SetUpQuarryPostfix(__instance);
+        }
+    }
+
+    [HarmonyPatch(typeof(Quarry))]
+    [HarmonyPatch("OnRegistered")]
+    public class OnRegistered_nqPatch
+    {
+        public static void Postfix(Quarry __instance)
+        {
+            nqQuarryServer.OnRegisteredPostfix(__instance);
         }
     }
 }
