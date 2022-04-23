@@ -60,5 +60,5 @@ MIT
 Rate the mod on Steam.;)
 ___
 ***NormalQuarry** is not affiliated with RocketWerkz. All trademarks and registered trademarks are the property of their respective owners.*<br>
-***NormalQuarry** (c) 2018-2021 mehanic321 & Contributors*
+***NormalQuarry** (c) 2018-2022 mehanic321 & Contributors*
 
