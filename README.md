@@ -51,6 +51,7 @@ ItemCopperOre
 ## Ссылка
 * [Official Github](https://github.com/mehanic321/Stationeers.NormalQuarry)
 * [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2621212864)
+* [AddonForModding](https://steamcommunity.com/sharedfiles/filedetails/?id=2798686984)
 
 ## Лицензия
 MIT
