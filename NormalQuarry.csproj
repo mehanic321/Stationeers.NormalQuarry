@@ -35,57 +35,396 @@
       <HintPath>$(SolutionDir)\packages\Lib.Harmony.2.0.4\lib\net45\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Accessibility" />
     <Reference Include="Assembly-CSharp">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\Assembly-CSharp.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\Assembly-CSharp-firstpass.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="ch.sycoforge.Flares">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\ch.sycoforge.Flares.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.AssetBundleModule.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="ch.sycoforge.Logging">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\ch.sycoforge.Logging.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.CoreModule.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="ch.sycoforge.Unity.Runtime">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\ch.sycoforge.Unity.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Facepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
+    <Reference Include="io.sentry.unity.runtime">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\io.sentry.unity.runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Posix">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Mono.Posix.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.WebBrowser">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Mono.WebBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="NaughtyAttributes.Core">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\NaughtyAttributes.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NaughtyAttributes.Test">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\NaughtyAttributes.Test.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Novell.Directory.Ldap">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Novell.Directory.Ldap.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Ookii.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="RG.ImGui">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\RG.ImGui.dll</HintPath>
+    </Reference>
+    <Reference Include="RG.ImGui.Unity">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\RG.ImGui.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Buffers">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Collections.Immutable">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Memory">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Numerics.Vectors">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Reflection.Metadata">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Runtime.CompilerServices.Unsafe">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Text.Encodings.Web">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Text.Json">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.System.Threading.Tasks.Extensions">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.Unity">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry.Unity.Native">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Sentry.Unity.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Selectors" />
+    <Reference Include="System.IO.Compression, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\System.ServiceModel.Internals.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UniTask">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UniTask.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.Addressables">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UniTask.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.DOTween">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UniTask.DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.Linq">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UniTask.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UniTask.TextMeshPro">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UniTask.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.PhysicsModule.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.IMGUIModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.InputLegacyModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.InputModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.JSONSerializeModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.NVIDIAModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\UnityEngine.UNETModule.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UNETModule.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Runtime.dll">
-      <HintPath>$(SolutionDir)\..\Libraries\Stationeers\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:\Games\Steam\steamapps\common\Stationeers\rocketstation_Data\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -96,10 +435,9 @@
     <Compile Include="Scripts\nqPlugin.cs" />
     <Compile Include="Scripts\nqPreset.cs" />
     <Compile Include="Scripts\nqQuarry.cs" />
-    <Compile Include="Scripts\nqQuarryClient.cs" />
     <Compile Include="Scripts\nqQuarryServer.cs" />
-    <Compile Include="Scripts\nqTMproText.cs" />
     <Compile Include="Scripts\nqTMpro.cs" />
+    <Compile Include="Scripts\nqTMproText.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="About\About.xml" />

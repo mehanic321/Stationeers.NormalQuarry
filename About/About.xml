@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>NormalQuarry | Нормальный карьер</Name>
+  <Name>UPGRADE! NormalQuarry | Нормальный карьер</Name>
   <Author>mehanic321</Author>
-  <Version>0.1.0001.00006</Version>
+  <Version>0.2.0001.00008</Version>
   <Description>
 A normal career for Stationeers.
 
 Modification for the quarry.
-Now the quarry is mined even after having dug up all the soil. Every 2 minutes, it will give a different amount (1-50, more often closer to 50) of one of the resources:
+Now the quarry is mined even after having dug up all the soil. Every 4 minutes, it will give a different amount (1-50) of one of the resources:
 
 ItemCoalOre
 ItemGoldOre
@@ -18,6 +18,7 @@ ItemSiliconOre
 ItemSilverOre
 ItemCobaltOre
 ItemCopperOre
+ItemUraniumOre
 
 The quarry will stop producing resources after the drill head returns to its original position and the quarry displays an error.
 Therefore, it is necessary to restart the quarry.
@@ -26,6 +27,23 @@ In order not to do it manually, you need to use automation or IC.
 IC script for automatic work of the quarry:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2622396507
 
+Quarry speed can be increased.
+To do this, next to it must be uranium ore (ItemUraniumOre).
+In total there are 3 levels of development.
+Consider automating uranium delivery (hint: dispenser).
+Please note: the amount of uranium in a quarry is not saved after restarting the game.
+Write a script that will sort and deliver the required amount of uranium.
+
+Default requirements:
+1) Level 0 | Energy - 200w | Uranium is not required
+1) Level 1 | Energy - 2000w | Uranus 1000 pieces
+1) Level 2 | Energy - 5000w | Uranus 3000 pieces
+1) Level 3 | Energy - 10000w | Uranium 5000 pieces
+
+All parameters can be changed in the file:
+DISK:\Users\USER\Documents\My Games\Stationeers\mods\NormalQuarry\nqPreset.cs
+Example of my path: C:\Users\mehanic\Documents\My Games\Stationeers\mods\NormalQuarry\nqPreset.cs
+
 Peculiarities:
 This is not a cheat mod
 The production of this quarry is approximately equal to bota aimee
@@ -33,14 +51,23 @@ Requires automation
 Works with old saves
 Doesn't require starting a new game
 Doesn't require rebuilding created quarries
+Upgraded and automated
+Makes uranium necessary
 
 ========================================================
 = ^-^ =
 
+WARNING: This mod will not work, unless you install Stationeers.Addon mod loader.
+Read how to install it here: https://github.com/Erdroy/Stationeers.Addons
+Latest version here: https://github.com/Erdroy/Stationeers.Addons/releases
+
+SUPPORT THE DEVELOPER WITH MONEY.:)))
+https://boosty.to/mehanic321
+
 Нормальный карьер для Stationeers.
 
 Модификация для карьера.
-Теперь карьер добывает даже после того, как выкопал всю почву. Каждые 2 минуты он будет давать разное количество(1-50, чаще ближе к 50) одного из ресурсов:
+Теперь карьер добывает даже после того, как выкопал всю почву. Каждые 4 минуты он будет давать разное количество(1-50) одного из ресурсов:
 
 ItemCoalOre
 ItemGoldOre
@@ -51,12 +78,30 @@ ItemSiliconOre
 ItemSilverOre
 ItemCobaltOre
 ItemCopperOre
+ItemUraniumOre
 
 Карьер перестанет давать ресурсы после того как буровая головка вернется на исходное положение и карьер отобразит ошибку.
 Поэтому нужно перезапустить карьер.
 Чтобы не делать это вручную - нужно использовать автоматику или IC.
 IC скрипт для автоматической работы карьера:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2622396507
+
+Скорость карьера можно увеличить. 
+Для этого рядом с ним должна быть урановая руда (ItemUraniumOre). 
+Всего имеется 3 уровня улучшения. 
+Подумайте над автоматизацией доставки урана (подсказка: раздатчик).
+Обратите внимание: количество урана не сохраняется после перезахода игры. 
+Напишите скрипт который будет сортировать и доставлять определенное количество урана.
+
+Требования по умолчанию:
+1) Уровень 0 | Энергия - 200ват | Уран не требуется
+1) Уровень 1 | Энергия - 2000ват | Уран 1000 штук
+1) Уровень 2 | Энергия - 5000ват | Уран 3000 штук
+1) Уровень 3 | Энергия - 10000ват | Уран 5000 штук
+
+Все параметры можно изменить в файле:
+DISK:\Users\USER\Documents\My Games\Stationeers\mods\NormalQuarry\nqPreset.cs
+Пример моего пути: C:\Users\mehanic\Documents\My Games\Stationeers\mods\NormalQuarry\nqPreset.cs
 
 Особенности:
 Это не читерский мод
@@ -65,17 +110,18 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2622396507
 Работает с старыми сохранениями
 Не требует начинать новую игру
 Не требует перестраивать созданные карьеры
+Улучшаемый и автоматизируемый
+Делает уран необходимым
 
 ========================================================
 = ^-^ =
 
-WARNING ВНИМАНИЕ
-
-WARNING: This mod will not work, unless you install Stationeers.Addon mod loader.
-Read how to install it here: https://github.com/Erdroy/Stationeers.Addons
-
 ВНИМАНИЕ: этот мод не будет работать, если вы не установите загрузчик мод Stationeers.Addon.
 Прочтите, как его установить здесь: https://github.com/Erdroy/Stationeers.Addons
+Последняя версия здесь: https://github.com/Erdroy/Stationeers.Addons/releases
+
+ПОДДЕРЖИТЕ РАЗРАБОТЧИКА ДЕНЮЖКОЙ.:)))
+https://boosty.to/mehanic321
 
 Ссылка
 Official Github https://github.com/mehanic321/Stationeers.NormalQuarry
@@ -90,8 +136,10 @@ MIT
 Rate the mod on Steam.;)
 
 NormalQuarry is not affiliated with RocketWerkz. All trademarks and registered trademarks are the property of their respective owners.
-NormalQuarry (c) 2018-2021 mehanic321 and Contributors
-  
+NormalQuarry (c) 2018-2022 mehanic321 and Contributors
+
+
+
   </Description>
   <WorkshopHandle>2621212864</WorkshopHandle>
   <Tags />

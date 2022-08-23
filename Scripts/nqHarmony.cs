@@ -3,7 +3,16 @@ using Assets.Scripts.Objects.Electrical;
 
 namespace nqPlugin.Script
 {
-    [HarmonyPatch(typeof(Quarry))]
+    [HarmonyPatch(typeof(Quarry), "SetUpQuarry")]
+    sealed class SetUpQuarry_nqPatch
+    {
+        static void Postfix(Quarry __instance)
+        {
+            nqQuarry.SetUpQuarryPostfix(__instance);
+        }
+    }
+
+    /*[HarmonyPatch(typeof(Quarry))]
     [HarmonyPatch("OnServerExportTick")]
     public class OnServerExportTick_nqPatch
     {
@@ -13,12 +22,15 @@ namespace nqPlugin.Script
         }
     }
 
-    [HarmonyPatch(typeof(Quarry), "SetUpQuarry")]
-    sealed class SetUpQuarry_nqPatch
+    
+
+    [HarmonyPatch(typeof(Quarry))]
+    [HarmonyPatch("OnRegistered")]
+    public class OnRegistered_nqPatch
     {
-        static void Postfix(Quarry __instance)
+        public static void Postfix(Quarry __instance)
         {
-            nqQuarry.SetUpQuarryPostfix(__instance);
+            nqQuarryServer.OnRegisteredPostfix(__instance);
         }
-    }
+    }*/
 }

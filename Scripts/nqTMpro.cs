@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
+using TMPro.SpriteAssetUtilities;
 
 namespace nqPlugin.Script
 {

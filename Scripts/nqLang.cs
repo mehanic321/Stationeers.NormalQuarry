@@ -9,5 +9,9 @@ namespace nqPlugin.Lang
         public const string PROCENT = "%";
         public const string POINT = ".";
         public const string ABBREVIATION_MIN = "min";
+        public const string ABBREVIATION_SEC = "s";
+        public const string SPEED = "Speed: ";
+        public const string URANIUM = "Uranium: ";
+        public const string UPGRADE = "Upgrade: ";
     }
 }
