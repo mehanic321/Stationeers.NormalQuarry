@@ -8,7 +8,7 @@ namespace nqPlugin.Script
     public class nqManager : MonoBehaviour
     {
 
-        public static void createItemOreByQuarryRandomQuantity(ref Quarry quarry, string oreHash, int count)
+        /*public static void createItemOreByQuarryRandomQuantity(ref Quarry quarry, string oreHash, int count)
         {
             Ore ore = OnServer.Create(oreHash, quarry.DrillHead.position, Random.rotation) as Ore;
             bool flag3 = ore != null;
@@ -17,7 +17,7 @@ namespace nqPlugin.Script
                 ore.NetworkQuantity = Mathf.CeilToInt(Mathf.Clamp(count, 1f, (float)ore.MaxQuantity));
                 OnServer.MoveToSlot(ore, quarry.ExportSlot);
             }
-        }
+        }*/
 
     }
 }
